@@ -1,0 +1,6 @@
+name: bhsite
+type: module
+description: 'customized module'
+package: custom
+version: 1.0
+core: '8.x'

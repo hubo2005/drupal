@@ -1,0 +1,14 @@
+bhsite.welcome:
+  title: 欢迎逛了
+  menu_name: main
+  route_name: bhsitehello
+  expended: TRUE
+  weight: 100
+
+bhsite.youyou:
+  title: 柚柚
+  menu_name: main
+  route_name: youyouHello
+  expended: TRUE
+  weight: 101
+
