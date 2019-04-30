@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - customcontent
+name: '公共信息'
+type: public_message
+description: '公共可访问的信息，最低权限要求'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
+third_party_settings: { }

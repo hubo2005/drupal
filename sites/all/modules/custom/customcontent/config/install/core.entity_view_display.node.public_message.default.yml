@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.public_message.body
+    - node.type.public_message
+  module:
+    - text
+    - user
+id: node.public_message.default
+targetEntityType: node
+bundle: public_message
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {}
+    third_party_settings: {}
+  links:
+    weight: 100
+hidden: {}

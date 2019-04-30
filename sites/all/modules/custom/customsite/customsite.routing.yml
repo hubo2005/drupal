@@ -1,14 +1,14 @@
 bhsitehello:
   path: 'hello'
   defaults:
-    _controller: '\Drupal\bhsite\Controller\HelloController::sayHello'
+    _controller: '\Drupal\customsite\Controller\HelloController::sayHello'
   requirements:
     _permission: 'access content'
 
 youyouHello:
   path: 'youyousayHello'
   defaults:
-    _controller: '\Drupal\bhsite\Controller\HelloController::youyouSayHello'
+    _controller: '\Drupal\customsite\Controller\HelloController::youyouSayHello'
     _title: 'niuniu'
   requirements:
     _permission: 'access content'

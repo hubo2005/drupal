@@ -6,7 +6,7 @@
  * Time: 19:20
  */
 
-namespace Drupal\bhsite\Controller;
+namespace Drupal\customsite\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 

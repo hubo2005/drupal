@@ -1,0 +1,11 @@
+name: customcontent
+type: module
+description: '定制网站内容'
+package: custom
+version: 1.0
+core: '8.x'
+dependencies:
+  - node
+  - text
+  - path
+  - ckeditor

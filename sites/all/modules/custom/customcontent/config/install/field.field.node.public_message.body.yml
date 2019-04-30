@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.public_message
+  module:
+    - text
+id: node.public_message.body
+field_name: body
+entity_type: node
+bundle: public_message
+label: '正文'
+description: '正文'
+required: false
+translatable: true
+default_value: { }
+default_value_callback: ''
+settings:
+  display_summary: true
+third_party_settings: { }
+field_type: text_with_summary
